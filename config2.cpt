@@ -1,0 +1,25 @@
+CPT Configuration Values
+
+|Upper screen:  27 lines
+|Lower screen:  21 lines
+|Left margin:    1
+|Right margin:  80
+|Spelling:       0
+|
+|String 1:      "Error"
+|String 2:      "Trace"
+|String 3:      "#include"
+|String 4:      "N72"
+|String 5:      "a=1"
+|String 6:      "p[1][1]"
+|
+|File 1:        tb32.c (3124,1)
+|File 2:        cases.txt (0,1)
+|File 3:        ../../initall.txt (76,1)
+|File 4:        schedule.c (261,26)
+|File 5:        fit5i.c (56,8)
+|File 6:        infimm1.txt (3,1)
+|File 7:        ../input/inf1981origSSA-ONUKsameFIX.txt (2,50)
+|File 8:        ../input/inf1981origSSA-ONUKsame.txt (2,15)
+|File 9:        inf1981.txt (2,50)
+|File 10:       hivp.txt (0,1)

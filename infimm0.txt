@@ -1,0 +1,49 @@
+Dataset:     Disease state probabilities for immigrants (version 0).
+Description: Probabilities of immigrants entering different disease states.
+             Data elements hold probabilities of corresponding disease state,
+             indexed by age class, region of birth, relative year, and disease
+             state. This version of the file is for model version SSAV=0, where
+             region of birth is stratified into two groups, with no
+             explicit group for Sub-Saharan Africans.
+
+Label r:    Region of birth (0=non-UK, 1=UK)
+Label y:    Year, relative to 1981 (y=0 for 1981, y=28 for 2009)
+Label q:    Disease state, cumulative probability
+             0=Uninfected (always 0)
+             1=Immune
+             2=Recent infection
+             3=Remote infection
+             4=Reinfection
+             5=Primary disease
+             6=Reactivation disease
+             7=Reinfection disease
+             8=Limit (always 1)
+Label c:    Age class
+             0=Less than 5
+             1=At least 5 but less than 15
+             2=At least 15 but less than 30
+             3=At least 30 but less than 45
+             4=At least 45 but less than 65
+             5=At least 65
+
+|r |y    |q |c0     |c1     |c2     |c3     |c4     |c5
+|0 |0~28 |0 |0      |0      |0      |0      |0      |0
+|0 |0~28 |1 |0.8000 |0.6000 |0.4900 |0.4000 |0.3700 |0.2531
+|0 |0~28 |2 |0.9793 |0.9294 |0.8800 |0.8800 |0.8000 |0.6331
+|0 |0~28 |3 |0.9800 |0.9374 |0.8900 |0.8890 |0.8090 |0.6385
+|0 |0~28 |4 |0.9979 |0.9947 |0.9818 |0.9750 |0.9431 |0.9330
+|0 |0~28 |5 |0.9979 |0.9967 |0.9917 |0.9897 |0.9833 |0.9819
+|0 |0~28 |6 |1      |0.9998 |0.9979 |0.9954 |0.9883 |0.9837
+|0 |0~28 |7 |1      |1      |0.9996 |0.9985 |0.9967 |0.9964
+|0 |0~28 |8 |1      |1      |1      |1      |1      |1
+
+|1 |0~28 |0 |0      |0      |0      |0      |0      |0
+|1 |0~28 |1 |0.8500 |0.3500 |0.3500 |0.3500 |0.3500 |0.3500
+|1 |0~28 |2 |0.9750 |0.7000 |0.7000 |0.7000 |0.7000 |0.7000
+|1 |0~28 |3 |0.9850 |0.7040 |0.7040 |0.7040 |0.7040 |0.7040
+|1 |0~28 |4 |0.9900 |0.9900 |0.9900 |0.9900 |0.9900 |0.9900
+|1 |0~28 |5 |0.9985 |0.9980 |0.9980 |0.9980 |0.9980 |0.9980
+|1 |0~28 |6 |0.9990 |0.9990 |0.9990 |0.9990 |0.9990 |0.9990
+|1 |0~28 |7 |0.9995 |0.9999 |0.9999 |0.9999 |0.9999 |0.9999
+|1 |0~28 |8 |1      |1      |1      |1      |1      |1
+

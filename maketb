@@ -1,0 +1,2 @@
+cc -lm -gdwarf-2 -g3 -rdynamic tb32.c schedule.c sort.c error.c fileio.c \
+                                      rand.c randh.c -o tb32

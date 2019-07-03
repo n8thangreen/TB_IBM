@@ -1,0 +1,19 @@
+\input ten.tex
+\input twelve.tex
+\font\graph = cmss10
+
+\def     \black#1{\special{pdf:bc[0 0 0]}#1\special{pdf:ec}}%
+\def      \blue#1{\special{pdf:bc[0 0 1]}#1\special{pdf:ec}}%
+\def \lightblue#1{\special{pdf:bc[.6 .6 1]}#1\special{pdf:ec}}%
+\def     \green#1{\special{pdf:bc[0 1 0]}#1\special{pdf:ec}}%
+\def      \cyan#1{\special{pdf:bc[0 1 1]}#1\special{pdf:ec}}%
+\def       \red#1{\special{pdf:bc[1 0 0]}#1\special{pdf:ec}}%
+\def      \pink#1{\special{pdf:bc[1 .5 .5]}#1\special{pdf:ec}}%
+\def   \magenta#1{\special{pdf:bc[1 0 1]}#1\special{pdf:ec}}%
+\def    \yellow#1{\special{pdf:bc[1 1 0]}#1\special{pdf:ec}}%
+\def     \white#1{\special{pdf:bc[1 1 1]}#1\special{pdf:ec}}%
+\def     \brown#1{\special{pdf:bc[.5 .5 .0]}#1\special{pdf:ec}}%
+\def      \gray#1{\special{pdf:bc[.5 .5 .5]}#1\special{pdf:ec}}%
+\def \lightgray#1{\special{pdf:bc[.8 .8 .8]}#1\special{pdf:ec}}%
+
+\def\vertical#1{\special{ps: gsave currentpoint currentpoint translate 90 neg rotate neg exch neg exch translate}\vbox to 0pt{\vss\hbox to 0pt{\hss #1\hss}\vss}\special{ps: currentpoint grestore moveto}}

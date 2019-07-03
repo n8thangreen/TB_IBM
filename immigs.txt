@@ -1,0 +1,38 @@
+Dataset:     Immigrants to England and Wales.
+Description: These data are numbers of immigrants to England and Wales each
+             year, from 1981 to 2009. 'Immigrants' are as defined in ONS data
+             and include those born in the UK and those born elsewhere.
+Label i:     Year, relative to 1981 and used for array index.
+Label y:     Calendar year, 1981 to 2009.
+Label z:     Total immigrants to England and Wales for a given year.
+
+|i  |y    |z
+| 0 |1981 |140600
+| 1 |1982 |189500
+| 2 |1983 |185800
+| 3 |1984 |186700
+| 4 |1985 |216600
+| 5 |1986 |231600
+| 6 |1987 |200000
+| 7 |1988 |201900
+| 8 |1989 |231100
+| 9 |1990 |250800
+|10 |1991 |231300
+|11 |1992 |191000
+|12 |1993 |189300
+|13 |1994 |220700
+|14 |1995 |222900
+|15 |1996 |242400
+|16 |1997 |257000
+|17 |1998 |298600
+|18 |1999 |326400
+|19 |2000 |329800
+|20 |2001 |347700
+|21 |2002 |363500
+|22 |2003 |401700
+|23 |2004 |483400
+|24 |2005 |458900
+|25 |2006 |488600
+|26 |2007 |482300
+|27 |2008 |489000
+|28 |2009 |474800

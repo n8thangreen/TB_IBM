@@ -1,0 +1,41 @@
+Dataset: HIV Prevalence in SubSaharan-African-born immigrants.
+Descrtiption: These data are estimates of the prevalence of HIV in SSA
+              immigrants entering the UK from 1981. Estimates are based on
+              the assumption that the prevalence was zero in 1981 and increased
+              linearly to overall prevalence in SSA immigrants estimated by
+              Presanis et al. for 2001. Estimates from 2001 to 2008 are taken
+              estimates of prevalence in SSA immigrants by Presanis et al.
+Label y: Year, relative to 1981.
+Label s: Prevalence by sex, 0=male, 1=female.
+
+|y  |s0    |s1
+| 0 |.0000 |.0000
+| 1 |.0007 |.0012
+| 2 |.0013 |.0024
+| 3 |.0020 |.0036
+| 4 |.0026 |.0048
+| 5 |.0033 |.0060
+| 6 |.0039 |.0072
+| 7 |.0046 |.0084
+| 8 |.0052 |.0096
+| 9 |.0059 |.0108
+|10 |.0065 |.0119
+|11 |.0072 |.0131
+|12 |.0078 |.0143
+|13 |.0085 |.0155
+|14 |.0091 |.0167
+|15 |.0098 |.0179
+|16 |.0104 |.0191
+|17 |.0111 |.0203
+|18 |.0117 |.0215
+|19 |.0124 |.0227
+|20 |.0130 |.0239
+|21 |.0214 |.0283
+|22 |.0221 |.0328
+|23 |.0185 |.0337
+|24 |.0163 |.0317
+|25 |.0176 |.0340
+|26 |.0160 |.0325
+|27 |.0155 |.0339
+|28 |.0155 |.0339
+

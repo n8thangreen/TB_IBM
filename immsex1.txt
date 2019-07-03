@@ -1,0 +1,39 @@
+Dataset:     Proportion male among immigrants to England and Wales (version 1).
+Description: These are proportions of immmigrants who are male, among
+             immigrants to England and Wales in a given year, stratified
+             by region of birth (UK, non-UK, SSA). Note that this file is
+             intended for version SSAV=1 of the TB program, where SSA-born
+             are a separate population group.
+Label i:     Year, relative to 1981, used for array indices.
+Label r:     Region of birth. 0=Non-UK(non-SSA), 1=UK, 2=SSA.
+
+|i  |r1   |r0   |r2
+| 0 |.665 |.478 |.516
+| 1 |.490 |.527 |.455
+| 2 |.612 |.474 |.486
+| 3 |.483 |.512 |.514
+| 4 |.476 |.389 |.423
+| 5 |.502 |.474 |.572
+| 6 |.499 |.478 |.517
+| 7 |.448 |.535 |.520
+| 8 |.460 |.409 |.580
+| 9 |.519 |.481 |.560
+|10 |.436 |.452 |.507
+|11 |.460 |.441 |.485
+|12 |.445 |.469 |.490
+|13 |.463 |.483 |.523
+|14 |.519 |.533 |.529
+|15 |.510 |.464 |.392
+|16 |.533 |.496 |.570
+|17 |.563 |.490 |.333
+|18 |.531 |.515 |.448
+|19 |.540 |.512 |.448
+|20 |.525 |.481 |.541
+|21 |.528 |.519 |.566
+|22 |.467 |.499 |.561
+|23 |.632 |.479 |.497
+|24 |.557 |.555 |.488
+|25 |.498 |.544 |.541
+|26 |.510 |.562 |.509
+|27 |.528 |.522 |.468
+|28 |.570 |.531 |.534

@@ -1,0 +1,39 @@
+Dataset:     Proportion male among immigrants to England and Wales (version 0).
+Description: These are the proportions of immigrants who are male, among
+             immigrants to England and Wales, in a given year. Proportions are
+             stratified by region of birth, UK or non-UK. These are tailored
+             for SSAV=0 (version 0 of TB model) which does not separate Sub-
+             Saharan African-born from other immigrants.
+Label i:     Year, relative to 1981, used for array indices.
+Lable r:     Region of birth. 0=Non-UK, 1=UK.
+
+|i  |r1   |r0
+| 0 |.665 |.481
+| 1 |.490 |.518
+| 2 |.612 |.476
+| 3 |.483 |.512
+| 4 |.476 |.393
+| 5 |.502 |.483
+| 6 |.499 |.482
+| 7 |.448 |.534
+| 8 |.460 |.428
+| 9 |.519 |.488
+|10 |.436 |.457
+|11 |.460 |.445
+|12 |.445 |.471
+|13 |.463 |.487
+|14 |.519 |.533
+|15 |.510 |.457
+|16 |.533 |.501
+|17 |.563 |.471
+|18 |.531 |.504
+|19 |.540 |.502
+|20 |.525 |.489
+|21 |.528 |.527
+|22 |.467 |.510
+|23 |.632 |.482
+|24 |.557 |.546
+|25 |.498 |.544
+|26 |.510 |.557
+|27 |.528 |.517
+|28 |.570 |.532

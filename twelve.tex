@@ -1,0 +1,41 @@
+\font\twelverm=cmr12%
+\font\twelvei =cmmi12%
+\font\twelvebf=cmbx12%
+\font\twelvesl=cmsl12%
+\font\twelveit=cmti12%
+\font\twelvett=cmtt12%
+\font\twelvesy=cmsy10 at 12pt%
+\font\twelveex=cmex10 at 12pt%
+%
+\font\twelvesc=cmcsc10 scaled\magstephalf%
+\font\tensc=cmcsc10%
+%
+\font\ninerm=cmr9%
+\font\ninei=cmmi9%
+\font\ninesy=cmsy9%
+\font\ninebf=cmbx9%
+%
+\font\sixrm=cmr6%
+\font\sixi=cmmi6%
+\font\sixsy=cmsy6%
+\font\sixbf=cmbx6%
+%
+\skewchar\ninei='177 \skewchar\sixi='177%
+\skewchar\ninesy='60 \skewchar\sixsy='60%
+%
+%  Switch to 12-point type.%
+%
+\def\twelvepoint{\def\rm{\fam0\twelverm}%
+ \textfont0=\twelverm \scriptfont0=\ninerm \scriptscriptfont0=\sixrm%
+ \textfont1=\twelvei  \scriptfont1=\ninei  \scriptscriptfont1=\sixi%
+ \textfont2=\twelvesy \scriptfont2=\ninesy \scriptscriptfont2=\sixsy%
+ \textfont3=\twelveex \scriptfont3=\twelveex   \scriptscriptfont3=\twelveex%
+ \textfont\itfam=\twelveit \def\it{\fam\itfam\twelveit}%%
+ \textfont\slfam=\twelvesl \def\sl{\fam\slfam\twelvesl}%%
+ \textfont\ttfam=\twelvett \def\tt{\fam\ttfam\twelvett}%%
+ \textfont\bffam=\twelvebf \scriptfont\bffam=\ninebf%
+  \scriptscriptfont\bffam=\sixbf \def\bf{\fam\bffam\twelvebf}%%
+ \normalbaselineskip=14pt%
+ \setbox\strutbox=\hbox{\vrule height10pt depth4pt width0pt}%%
+ \let\sc=\twelvesc%
+ \normalbaselines\rm}%

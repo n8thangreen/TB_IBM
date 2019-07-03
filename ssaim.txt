@@ -1,0 +1,38 @@
+Dataset:     Proportion of non-UK born immigrants born in SSA.
+Description: These are proportions of all non-UK immigrants, in a given year,
+             who were born in Sub-Saharan Africa. These proportions come from
+             ONS inflow estimates produced for this project.
+Label i:     Year, relative to 1981, used for array indices.
+Label y:     Calendar year, 1981 to 2009.
+Label z:     Proportion of non-UK immigrants who are SSA-born, by year.
+
+|i  |y    |z
+| 0 |1981 |0.097938144
+| 1 |1982 |0.128318584
+| 2 |1983 |0.173913043
+| 3 |1984 |0.126672614
+| 4 |1985 |0.112452830
+| 5 |1986 |0.096537949
+| 6 |1987 |0.095392078
+| 7 |1988 |0.073850791
+| 8 |1989 |0.113548387
+| 9 |1990 |0.080709788
+|10 |1991 |0.088682991
+|11 |1992 |0.085862966
+|12 |1993 |0.082034454
+|13 |1994 |0.106029106
+|14 |1995 |0.074421513
+|15 |1996 |0.089160839
+|16 |1997 |0.077979132
+|17 |1998 |0.125173853
+|18 |1999 |0.160192231
+|19 |2000 |0.152148207
+|20 |2001 |0.141846612
+|21 |2002 |0.186850050
+|22 |2003 |0.177176253
+|23 |2004 |0.173543975
+|24 |2005 |0.140805335
+|25 |2006 |0.095700416
+|26 |2007 |0.093050104
+|27 |2008 |0.099186992
+|28 |2009 |0.069606143

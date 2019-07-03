@@ -1,0 +1,38 @@
+Dataset:      Proportion of immigrants to England and Wales born outside the UK.
+Description:  These are proportions of immigrants entering England & Wales in a
+              particular year who were born outside the UK. These comes from
+              ONS data prepared especially for this project.
+Label i:      Year, relative to 1981, used for array indices.
+Label y:      Calendar year, 1981 to 2009.
+Label z:      Proportions of all immigrants who are non-UK born in a given year.
+
+|i |y     |z
+| 0 |1981 |0.689900427
+| 1 |1982 |0.596306069
+| 2 |1983 |0.643702906
+| 3 |1984 |0.600428495
+| 4 |1985 |0.611726685
+| 5 |1986 |0.648531952
+| 6 |1987 |0.618500000
+| 7 |1988 |0.657256067
+| 8 |1989 |0.670705322
+| 9 |1990 |0.696570973
+|10 |1991 |0.653264159
+|11 |1992 |0.603664921
+|12 |1993 |0.643951400
+|13 |1994 |0.653828727
+|14 |1995 |0.717362046
+|15 |1996 |0.707920792
+|16 |1997 |0.708560311
+|17 |1998 |0.722371065
+|18 |1999 |0.765012255
+|19 |2000 |0.769254093
+|20 |2001 |0.772505033
+|21 |2002 |0.820082531
+|22 |2003 |0.809310431
+|23 |2004 |0.877327265
+|24 |2005 |0.849640445
+|25 |2006 |0.885386819
+|26 |2007 |0.897988804
+|27 |2008 |0.880368098
+|28 |2009 |0.850252738
